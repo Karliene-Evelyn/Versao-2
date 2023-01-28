@@ -1,0 +1,474 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Cabeçalho */
+#menu {
+  width: 100%;
+  height: 40px;
+  background: #005eff;
+  color: white;
+  line-height: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#menu ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  float: center;
+}
+
+#menu li {
+  list-style: none;
+  display: inline;
+  padding: 1.5%;
+  margin-left: 4%;
+}
+
+#logo {
+  width: auto;
+  height: 40px;
+  float: left;
+}
+
+/* Banner*/
+#banner {
+  width: 100%;
+  height: 250px;
+}
+#ft-banner img {
+  width: auto;
+  height: 250px;
+  float: right;
+}
+#texto {
+  width: 70%;
+  height: 250px;
+  float: left;
+}
+#inicio {
+  margin-top: 3%;
+}
+#txt1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  margin-top: 1%;
+  font-size: 20px;
+  text-align: center;
+}
+#botoes {
+  margin-top: 3%;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.btn-gplay,
+.btn-astore {
+  width: 35%;
+  padding: 0.5%;
+  font-size: 1.5em;
+  text-align: center;
+  margin-left: 3%;
+  border-radius: 10px;
+  background-color: #005eff;
+  color: white;
+}
+
+/* Quem somos*/
+#quemsomos {
+  width: 100%;
+  height: 250px;
+  background-color: #005eff;
+  display: flex;
+}
+
+#info {
+  height: 150px;
+  float: left;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+#ft-info img {
+  width: auto;
+  height: 250px;
+  float: right;
+}
+
+/* Serviços */
+#servicos {
+  width: 100%;
+  height: 300px;
+  background: url(../img/cidade\ \(1\).jpeg) no-repeat fixed;
+}
+
+#s-info {
+  background-color: white;
+  width: 60%;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 20%;
+}
+
+/* Contato */
+#contato {
+  width: 100%;
+  height: 300px;
+  background-color: #005eff;
+}
+
+#enderecos {
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+#cont-txt {
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 1%;
+  margin-left: 8%;
+}
+
+#cont2-txt {
+  width: 100%;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 3%;
+  margin-left: 8%;
+}
+
+.rodape {
+  width: 100%;
+  float: right;
+  margin-top: 2%;
+  padding: 3% 4%;
+  text-align: left;
+}
+
+.socialicons a {
+  font-size: 1.5em;
+  margin-right: 1%;
+  margin-left: 4%;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/*Formulario*/
+#form {
+  width: 50%;
+  height: 300px;
+  float: right;
+}
+
+#form-duvidas {
+  margin-top: 2%;
+  width: 80%;
+}
+
+#h2-form {
+  color: white;
+  font-size: 25px;
+}
+
+label {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+#form input {
+  height: 20px;
+  width: 350px;
+  border-radius: 5px;
+}
+textarea {
+  width: 250x;
+  border-radius: 5px;
+}
+
+/*Celular*/
+@media (min-width: 0px) and (max-width: 480px) {
+  #logo {
+    width: 100px;
+    height: 25px;
+  }
+
+  #menu {
+    font-size: 10px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  #menu li {
+    margin-left: 1%;
+  }
+
+  #banner {
+    height: 100px;
+  }
+
+  #ft-banner img {
+    width: 90px;
+    height: 100px;
+  }
+
+  #texto {
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  #txt1 {
+    font-size: 10px;
+  }
+
+  .btn-gplay,
+  .btn-astore {
+    font-size: 10px;
+  }
+
+  #quemsomos {
+    height: 100px;
+  }
+
+  #info {
+    height: 75px;
+    font-size: 10px;
+  }
+
+  #ft-info img {
+    width: 90px;
+    height: 100px;
+    float: right;
+  }
+
+  #servicos {
+    height: 125px;
+  }
+
+  #s-info {
+    background-color: white;
+    width: 60%;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 20%;
+  }
+
+  #contato {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 500px;
+    align-items: center;
+  }
+
+  #enderecos {
+    width: 100%;
+    margin-top: 30px;
+    height: auto;
+  }
+
+  #cont-txt {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  #cont2-txt {
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .socialicons a {
+    font-size: 10px;
+  }
+
+  #form {
+    width: 100%;
+    text-align: center;
+  }
+
+
+  #form-duvidas {
+    margin: 0;
+    width: 100%;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+
+  #form input {
+    height: 20px;
+    width: 180px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  ::placeholder {
+    font-size: 8px;
+  }
+
+  textarea {
+    width: 200px;
+    border-radius: 5px;
+  }
+}
+
+/*Tablet*/
+@media (min-width: 481px) and (max-width: 800px) {
+  #logo {
+    width: 100px;
+    height: 35px;
+  }
+
+  #menu {
+    font-size: 18px;
+    height: 35px;
+    line-height: 35px;
+  }
+
+  #menu li {
+    margin-left: 1%;
+  }
+
+  #banner {
+    height: 100px;
+  }
+
+  #ft-banner img {
+    width: 90px;
+    height: 100px;
+  }
+
+  #texto {
+    height: 100px;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  #txt1 {
+    font-size: 10px;
+  }
+
+  #quemsomos {
+    height: 100px;
+  }
+
+  #info {
+    height: 75px;
+    font-size: 10px;
+  }
+
+  #ft-info img {
+    width: 90px;
+    height: 100px;
+    float: right;
+  }
+
+  #servicos {
+    height: 125px;
+  }
+
+  #s-info {
+    background-color: white;
+    width: 60%;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    margin-left: 20%;
+  }
+
+  #contato {
+    height: 300px;
+  }
+
+  #enderecos {
+    width: 40%;
+    height: 125px;
+  }
+
+  #cont-txt {
+    font-size: 10px;
+  }
+
+  #cont2-txt {
+    font-size: 10px;
+  }
+
+  .socialicons a {
+    font-size: 10px;
+  }
+
+  #form {
+    height: 100px;
+  }
+
+  #h2-form {
+    font-size: 10px;
+  }
+
+  label {
+    font-size: 10px;
+  }
+
+  #form input {
+    height: 20px;
+    width: 180px;
+  
+  }
+
+  ::placeholder {
+    font-size: 8px;
+  }
+
+  textarea {
+    width: 200px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1500px) {
+  #ft-banner img {
+    width: auto;
+    height: 250px;
+    float: right;
+  }
+  #texto {
+    width: 50%;
+    height: 250px;
+  }
+  textarea {
+    width: 350px;
+    border-radius: 5px;
+  }
+  #botoes{
+    font-size: 15px;
+  }
+  
+}
