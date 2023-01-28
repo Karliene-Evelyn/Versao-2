@@ -1,6 +1,11 @@
-# Versao-2
+# Versao-Final
 
-Estou desenvolvendo o projeto em NodeJS.
-Estava tendo de dificuldades quanto a tarefa e resolvi tentar desenvolve-la atraves do que já vinha tentando apreder.
+O projeto foi desenvolvido em NodeJS, Html, Css e o Mysql como banco de dados.
 
-Hoje, dia 20 de Dezembro, para finalizar o projeto só está faltando torna-lo responsivo, e dar uns retoques no html, até a proóxima entrega espero concluir.
+Versão do Node: 18.13.0.
+
+Informaçãoes banco de dados:
+Nome bd: prog-web
+Nome tabela: form
+Colunas: ID, name, email, questions.
+
